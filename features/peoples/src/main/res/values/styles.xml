@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OnlineStatus" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@drawable/rounded_background</item>
+    </style>
+
+    <style name="OnlineStatus2" parent="Widget.MaterialComponents.TabLayout.Colored">
+        <item name="android:background">@drawable/rounded_background</item>
+    </style>
+</resources>

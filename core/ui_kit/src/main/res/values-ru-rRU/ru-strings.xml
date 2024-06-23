@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="in_a_meeting">Онлайн статус</string>
+    <string name="search">Поиск...</string>
+    <string name="try_again">Попробовать снова</string>
+    <string name="error_snackbar_message">Произошла ошибка сети</string>
+    <string name="error_snackbar_action">Повторить попытку</string>
+</resources>

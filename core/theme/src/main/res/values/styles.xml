@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CircleImageStyle">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="MyTextStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+    <style name="RoundedEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/rounded_edittext_background</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:textColorHint">@color/colorSecondary</item>
+    </style>
+
+    <style name="NormalTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textDirection">ltr</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:textColorHint">@color/colorSecondary</item>
+    </style>
+
+    <style name="UserNameText" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+</resources>

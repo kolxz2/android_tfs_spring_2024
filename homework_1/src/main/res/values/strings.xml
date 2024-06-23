@@ -1,0 +1,10 @@
+<resources>
+    <string name="homework_1_go_to_next_screen">Go to next screen</string>
+    <string name="homework_1_click_to_start_scanning_you_contacts">Click to start scanning you contacts</string>
+    <string name="homework_1_security_message_text">All rights reserved.  Your data is secure and will not be shared with any third parties.</string>
+    <string name="homework_1_allow_access_to_call_logs">Allow access to call logs in settings</string>
+    <string name="homework_1_nice_to_meet_you">Nice to meet you!</string>
+    <string name="homework_1_last_call_info">Last call number: %s \nDate call: %s\nCall duration: %s min</string>
+    <string name="call_history_is_empty">Call history is empty</string>
+    <string name="go_to_settings">Go to settings</string>
+</resources>

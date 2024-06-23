@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Base.Theme.TFSSpring2024" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="background">@color/secondBackground</item>
+        <item name="backgroundColor">@color/background</item>
+        <item name="colorPrimary">@color/textColorPrimary</item>
+        <item name="android:colorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorTertiaryInverse">@color/textColorPrimary</item>
+        <item name="colorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.TFSSpring2024" parent="Base.Theme.TFSSpring2024">
+        <item name="android:background">@color/secondBackground</item>
+        <item name="android:backgroundTint">@color/secondBackground</item>
+    </style>
+
+</resources>

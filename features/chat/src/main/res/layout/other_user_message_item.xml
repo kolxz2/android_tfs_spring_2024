@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingEnd="20dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivUserPortrait"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="16dp"
+        app:shapeAppearanceOverlay="@style/CircleImageStyle"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <android.widget.LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/messageBox"
+            style="@style/MaterialAlertDialog.Material3"
+            layout="@layout/message_item" />
+
+        <ru.nikolas_snek.chat.presentation.custome.FlexBoxLayout
+            android:id="@+id/emojiBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingRight="2dp" />
+    </android.widget.LinearLayout>
+
+</android.widget.LinearLayout>
+

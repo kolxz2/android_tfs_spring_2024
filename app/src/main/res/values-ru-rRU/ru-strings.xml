@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channels">Каналы</string>
+    <string name="profile">Мой профиль</string>
+    <string name="members">Участники</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="write_message">Write...</string>
+    <string name="sent_message">sent message</string>
+    <string name="topic">Topic: %s</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="55dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:paddingEnd="16dp">
+
+
+    <include
+        android:id="@+id/messageBox"
+        layout="@layout/message_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end" />
+
+    <ru.nikolas_snek.chat.presentation.custome.FlexBoxLayout
+        android:id="@+id/emojiBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingRight="6dp"
+        android:layout_gravity="end" />
+
+</android.widget.LinearLayout>
